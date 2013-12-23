@@ -69,12 +69,6 @@ small {
 	font-size: 0.750em;
 }
 
-.social {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-}
-
 /*==============================
 =            Header            =
 ==============================*/
@@ -111,10 +105,6 @@ small {
 	text-decoration: none;
 }
 
-.contact {
-	margin-bottom: 2em;
-}
-
 .contact i {
 	font-size: 1.5em;
 	padding-right: 10px;
@@ -130,17 +120,30 @@ small {
 }
 
 a.download {
+	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	text-decoration: none;
 	padding: 1em;
-	margin: 0;
+	margin: 1em 0;
 	font-size: 0.650em;
 	background-color: #48DA7D;
 	border: 1px solid rgba(0,0,0,.2);
 	border-radius: 4px;
 	-webkit-transition: background-color ease 0.3s;
 			transition: background-color ease 0.3s;
+}
+
+.social {
+
+}
+
+#___plusone_0 {
+	width: 70px !important;
+}
+
+.fb-like {
+margin-right: 10px;
 }
 
 /*====================================
