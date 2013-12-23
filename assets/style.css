@@ -69,6 +69,12 @@ small {
 	font-size: 0.750em;
 }
 
+.social {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
 /*==============================
 =            Header            =
 ==============================*/
