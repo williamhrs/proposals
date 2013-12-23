@@ -134,6 +134,10 @@ a.download {
 			transition: background-color ease 0.3s;
 }
 
+a.download:hover {
+	background-color: #2FF477;
+}
+
 #___plusone_0 {
 	width: 70px !important;
 }
